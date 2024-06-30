@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Bacon HUB", "Sentinel")
+local Window = Library.CreateLib("Bacon HUB", "BloodTheme")
 local Tab = Window:NewTab("เมนูวาป")
 local Section = Tab:NewSection("วาป")
 Section:NewButton("วาปไปอตอมมิก", "ButtonInfo", function()
@@ -23,4 +23,3 @@ local Section = Tab:NewSection("ปรับspeed")
 Section:NewSlider("ปรับspeed", "SliderInfo", 1000, 0, function(s) -- 1000 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
-wadawrsraasrar
