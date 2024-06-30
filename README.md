@@ -21,6 +21,6 @@ end)
 local Tab = Window:NewTab("วิ่งไว")
 local Section = Tab:NewSection("ปรับspeed")
 Section:NewSlider("ปรับspeed", "SliderInfo", 1000, 0, function(s) -- 1000 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
 end)
-ez
+
